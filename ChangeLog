@@ -1,0 +1,6 @@
+2019-01-08         [RELEASE] Release of deploy-typo3-capistrano 1.0.0 (Dirk Wenzel)
+2019-01-08 133cecb [TASK] README added (Dirk Wenzel)
+2019-01-08 0d6819a [TASK] Gemfile and Gemfile.lock added, run bundle command (Dirk Wenzel)
+2019-01-08 bcb823a [TASK] Dockerfile added (Dirk Wenzel)
+
+
