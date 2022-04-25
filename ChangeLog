@@ -1,3 +1,9 @@
+2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.3 (Elias Häußler)
+2022-04-25 7dafde0 [DOCS] Add hint about patched version of Capistrano (Elias Häußler)
+2022-04-25 1b7eb70 [BUGFIX] Include patch to avoid "can't dump IO" errors (Elias Häußler)
+2022-04-25 6d46777 [TASK] Create Docker image tag in feature branches (Elias Häußler)
+2022-04-25 591430d [BUGFIX] Correct requirements section in README.md (Elias Häußler)
+
 2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.2 (Elias Häußler)
 2022-04-25 2b28fdc [BUGFIX] Write Docker image in lowercase letters (Elias Häußler)
 
