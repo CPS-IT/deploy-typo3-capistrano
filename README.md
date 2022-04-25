@@ -10,9 +10,8 @@ for all included packages.
 
 ## Requirements
 
-You need to provide a deployment config that resides in the `.deployment` 
-directory of your project. See our [deployment package][1] for an example
-configuration.
+You need to provide a Capistrano deployment config. See our [deployment package][1]
+for an example configuration.
 
 ## Usage
 
