@@ -19,7 +19,7 @@ configuration.
 Reference the Docker image in your `.gitlab-ci.yml` like follows:
 
 ```yaml
-image: $CI_REGISTRY/DevOps/docker-images/deploy-typo3-capistrano
+image: $CI_REGISTRY/devops/docker-images/deploy-typo3-capistrano
 ```
 
 Now run `cap [target] [task]` to start the deployment.
