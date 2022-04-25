@@ -6,4 +6,4 @@ COPY patches patches
 
 RUN gem install bundler -v '~>2' --no-document \
     && bundle \
-    && patch /usr/local/bundle/gems/capistrano-3.5.0/lib/capistrano/dsl.rb patches/capistrano-dump-io.patch
+    && patch /usr/local/bundle/gems/capistrano-3.11.2/lib/capistrano/dsl.rb patches/capistrano-dump-io.patch
