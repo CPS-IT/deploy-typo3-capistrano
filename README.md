@@ -23,4 +23,10 @@ image: $CI_REGISTRY/devops/docker-images/deploy-typo3-capistrano
 
 Now run `cap [target] [task]` to start the deployment.
 
+## Important notes
+
+The delivered version of Capistrano is patched to avoid random `can't dump IO`
+errors. See the corresponding [merge request][2] that introduced this patch.
+
 [1]: https://gitlab.321.works/DevOps/templates/backend/deployment
+[2]: https://gitlab.321.works/DevOps/docker-images/deploy-typo3-capistrano/-/merge_requests/2
