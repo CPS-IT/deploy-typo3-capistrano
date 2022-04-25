@@ -1,3 +1,6 @@
+2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.2 (Elias Häußler)
+2022-04-25 2b28fdc [BUGFIX] Write Docker image in lowercase letters (Elias Häußler)
+
 2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.1 (Elias Häußler)
 2022-04-25 cb152b9 [TASK] Release image tags for repository tags as well (Elias Häußler)
 2022-04-25 a1fc6d2 [DOCS] Reflect project move to GitLab in README.md (Elias Häußler)
