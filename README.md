@@ -18,10 +18,21 @@ for an example configuration.
 Reference the Docker image in your `.gitlab-ci.yml` like follows:
 
 ```yaml
-image: $CI_REGISTRY/devops/docker-images/deploy-typo3-capistrano
+image: $CI_REGISTRY/devops/docker-images/deploy-typo3-capistrano:stable
 ```
 
 Now run `cap [target] [task]` to start the deployment.
+
+### Image tags
+
+The following image tags are available:
+
+| Tag         | Branch name          |
+|-------------|----------------------|
+| `stable`    | `main`               |
+| `latest`    | `develop`            |
+| `<version>` | _tags, e.g. `1.0.1`_ |
+| `feature-*` | `feature/*`          |
 
 ## Important notes
 
