@@ -1,3 +1,7 @@
+2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.4 (Elias Häußler)
+2022-04-25 0886306 [DOCS] Mention replacement for legacy image on Docker Hub (Elias Häußler)
+2022-04-25 d95b311 [DOCS] Document available tags in README.md (Elias Häußler)
+
 2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.3 (Elias Häußler)
 2022-04-25 7dafde0 [DOCS] Add hint about patched version of Capistrano (Elias Häußler)
 2022-04-25 1b7eb70 [BUGFIX] Include patch to avoid "can't dump IO" errors (Elias Häußler)
