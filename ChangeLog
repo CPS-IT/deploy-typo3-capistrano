@@ -1,6 +1,9 @@
+2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.1 (Elias Häußler)
+2022-04-25 cb152b9 [TASK] Release image tags for repository tags as well (Elias Häußler)
+2022-04-25 a1fc6d2 [DOCS] Reflect project move to GitLab in README.md (Elias Häußler)
+2022-04-25 c3e28a3 [TASK] Add GitLab CI config (Elias Häußler)
+
 2019-01-08         [RELEASE] Release of deploy-typo3-capistrano 1.0.0 (Dirk Wenzel)
 2019-01-08 133cecb [TASK] README added (Dirk Wenzel)
 2019-01-08 0d6819a [TASK] Gemfile and Gemfile.lock added, run bundle command (Dirk Wenzel)
 2019-01-08 bcb823a [TASK] Dockerfile added (Dirk Wenzel)
-
-
