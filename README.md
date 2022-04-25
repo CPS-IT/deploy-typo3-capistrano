@@ -43,6 +43,18 @@ The following image tags are available:
 The delivered version of Capistrano is patched to avoid random `can't dump IO`
 errors. See the corresponding [merge request][2] that introduced this patch.
 
+## Migration
+
+### 1.x → 2.x
+
+* SCM value `:copy` is deprecated in Capistrano.
+  - Remove config `set :scm, :copy` from your `deploy.rb` file. `dkdeploy-core`
+    already configures `:copy` as default value.
+* Release folder name pattern has changed.
+  - There's nothing to do. Capistrano will print a warning until all release
+    folders with the old name schema are removed. This happens automatically
+    during the `deploy:cleanup` task.
+
 [1]: https://gitlab.321.works/DevOps/templates/backend/deployment
 [2]: https://gitlab.321.works/DevOps/docker-images/deploy-typo3-capistrano/-/merge_requests/2
 [3]: https://hub.docker.com/r/cpsit/deploy-typo3-capistrano
