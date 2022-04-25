@@ -3,6 +3,17 @@ include:
     ref: master
     file: '/.gitlab-ci.yml'
 
+release-image-feature:
+  stage: release
+  script:
+    - export CONTAINER_FEATURE_IMAGE=${CI_REGISTRY_IMAGE}:${CONTAINER_TAG_PREFIX}${CI_COMMIT_REF_SLUG}${CONTAINER_TAG_SUFFIX}
+    - docker pull $CONTAINER_TEST_IMAGE || true
+    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_FEATURE_IMAGE
+    - docker push $CONTAINER_FEATURE_IMAGE
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^feature\//'
+      when: on_success
+
 release-image-version:
   stage: release
   script:
