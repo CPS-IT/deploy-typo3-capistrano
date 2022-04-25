@@ -1,16 +1,27 @@
-Deploy TYPO3 Capistrano
-=======================
+# Deploy TYPO3 Capistrano
 
-Docker Image for deployment of TYPO3 CMS applications via capistrano.
+> Docker Image for deployment of TYPO3 CMS applications via Capistrano.
 
-### What does it do?
-* provides a docker image with capistrano for TYPO3
-* for included packages please see the Gemfile
+## What does it do?
 
-### Requirements
-* configuration files for capistrano
+This package provides a Docker image with preinstalled Capistrano for TYPO3.
+It can be used for deployment of TYPO3 projects. See the [Gemfile](Gemfile)
+for all included packages.
 
-### Usage
-* build a container from this image
-* link your project files into this image
-* run `cap [target] [task]`
+## Requirements
+
+You need to provide a deployment config that resides in the `.deployment` 
+directory of your project. See our [deployment package][1] for an example
+configuration.
+
+## Usage
+
+Reference the Docker image in your `.gitlab-ci.yml` like follows:
+
+```yaml
+image: $CI_REGISTRY/DevOps/docker-images/deploy-typo3-capistrano
+```
+
+Now run `cap [target] [task]` to start the deployment.
+
+[1]: https://gitlab.321.works/DevOps/templates/backend/deployment
