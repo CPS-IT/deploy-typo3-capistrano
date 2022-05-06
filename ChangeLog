@@ -1,3 +1,7 @@
+2022-05-06         [RELEASE] Release of deploy-typo3-capistrano 2.0.0 (Elias Häußler)
+2022-04-25 0d53df2 [DOCS] Add migration steps to README.md (Elias Häußler)
+2022-04-25 8a529c2 [TASK] Update to dkdeploy-typo3-cms 8.1.x (Elias Häußler)
+
 2022-04-25         [RELEASE] Release of deploy-typo3-capistrano 1.0.4 (Elias Häußler)
 2022-04-25 0886306 [DOCS] Mention replacement for legacy image on Docker Hub (Elias Häußler)
 2022-04-25 d95b311 [DOCS] Document available tags in README.md (Elias Häußler)
