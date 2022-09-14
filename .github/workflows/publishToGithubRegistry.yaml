@@ -11,7 +11,7 @@ name: Create and publish a Docker image to Github Registry
 
 on:
   push:
-    branches: ['release']
+    branches: ['release','feature/githubActions']
 
 env:
   REGISTRY: ghcr.io
