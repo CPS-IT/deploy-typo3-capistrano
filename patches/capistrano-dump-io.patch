@@ -1,0 +1,10 @@
+53c53,59
+<       subset_copy = Marshal.dump(Configuration.env.filter(hosts))
+---
+>       data = Configuration.env.filter(hosts)
+>       if data[0].instance_variable_defined?(:@netssh_options)
+>         puts "deleting netssh_options"
+>         puts data[0].netssh_options
+>         data[0].remove_instance_variable(:@netssh_options)
+>       end
+>       subset_copy = Marshal.dump(data)
