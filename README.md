@@ -3,9 +3,6 @@
 > Docker image for deployment of TYPO3 CMS applications via Capistrano, based on
 > [`dkdeploy-typo3-cms`][4].
 
-:warning: This is a replacement for the legacy [`cpsit/deploy-typo3-capistrano`][3]
-image on Docker Hub.
-
 ## What does it do?
 
 This package provides a Docker image with preinstalled Capistrano for TYPO3.
@@ -41,7 +38,7 @@ The following image tags are available:
 ## Important notes
 
 The delivered version of Capistrano is patched to avoid random `can't dump IO`
-errors. See the corresponding [merge request][2] that introduced this patch.
+errors.
 
 ## Migration
 
