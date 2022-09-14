@@ -11,15 +11,15 @@ for all included packages.
 
 ## Requirements
 
-You need to provide a Capistrano deployment config. See our [deployment package][1]
-for an example configuration.
+You need to provide a Capistrano deployment config. See [capistrano documentation][1]
+for details.
 
 ## Usage
 
-Reference the Docker image in your `.gitlab-ci.yml` like follows:
+Reference the Docker image in your CI/CD pipeline e.g.:
 
 ```yaml
-image: $CI_REGISTRY/devops/docker-images/deploy-typo3-capistrano:stable
+image: cpsit/deploy-typo3-capistrano:stable
 ```
 
 Now run `cap [target] [task]` to start the deployment.
@@ -52,7 +52,6 @@ errors.
     folders with the old name schema are removed. This happens automatically
     during the `deploy:cleanup` task.
 
-[1]: https://gitlab.321.works/DevOps/templates/backend/deployment
-[2]: https://gitlab.321.works/DevOps/docker-images/deploy-typo3-capistrano/-/merge_requests/2
+[1]: https://capistranorb.com/
 [3]: https://hub.docker.com/r/cpsit/deploy-typo3-capistrano
 [4]: https://github.com/dkdeploy/dkdeploy-typo3-cms
