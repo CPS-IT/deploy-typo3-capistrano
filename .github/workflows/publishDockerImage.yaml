@@ -10,8 +10,6 @@
 name: Publish Docker image to hub.docker.com
 
 on:
-  push:
-    branches: [ 'feature/githubActions' ]
   release:
     types: [published]
 
