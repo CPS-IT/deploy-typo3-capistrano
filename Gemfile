@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem 'dkdeploy-typo3-cms', '~> 8.1'
+gem 'capistrano', '~> 3.17', '>= 3.17.3'
