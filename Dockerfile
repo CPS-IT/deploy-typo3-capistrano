@@ -1,7 +1,6 @@
 FROM ruby:3.0
 
 COPY Gemfile .
-COPY Gemfile.lock .
 COPY patches patches
 
 RUN gem install bundler -v '~>2' --no-document \
