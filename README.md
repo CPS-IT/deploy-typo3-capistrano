@@ -1,11 +1,11 @@
 # Deploy TYPO3 Capistrano
 
 > Docker image for deployment of TYPO3 CMS applications via Capistrano, based on
-> [`dkdeploy-typo3-cms`][4].
+> [`dkdeploy-core`][4].
 
 ## What does it do?
 
-This package provides a Docker image with preinstalled Capistrano for TYPO3.
+This package provides a Docker image with preinstalled Capistrano.
 It can be used for deployment of TYPO3 projects. See the [Gemfile](Gemfile)
 for all included packages.
 
@@ -35,10 +35,6 @@ The following image tags are available:
 | `<version>` | _tags, e.g. `1.0.1`_ |
 | `feature-*` | `feature/*`          |
 
-## Important notes
-
-The delivered version of Capistrano is patched to avoid random `can't dump IO`
-errors.
 
 ## Migration
 
@@ -54,4 +50,4 @@ errors.
 
 [1]: https://capistranorb.com/
 [3]: https://hub.docker.com/r/cpsit/deploy-typo3-capistrano
-[4]: https://github.com/dkdeploy/dkdeploy-typo3-cms
+[4]: https://github.com/dkdeploy/dkdeploy-core
