@@ -1,3 +1,4 @@
+2024-05-03         [RELEASE] Release of deploy-typo3-capistrano 3.0.0 (Dirk Wenzel)
 2022-09-14         [RELEASE] Release of deploy-typo3-capistrano 2.1.0 (Dirk Wenzel)
 2022-09-14 3eaf086 [CI] reset deployment rule for docker hub (Dirk Wenzel)
 2022-09-14 6df3ad6 [CI] test deployment to docker hub (Dirk Wenzel)

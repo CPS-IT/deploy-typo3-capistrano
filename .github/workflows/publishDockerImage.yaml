@@ -10,6 +10,9 @@
 name: Publish Docker image to hub.docker.com
 
 on:
+  push:
+    branches:
+        - 'develop'
   release:
     types: [published]
 
