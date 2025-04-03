@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-gem 'capistrano', '~> 3.17', '>= 3.17.3'
+gem 'capistrano', '~> 3.19', '>= 3.19.2'
 gem 'dkdeploy-core', '~> 10.0'
